@@ -18,12 +18,16 @@ Sortiert Buchstaben im Wort zufällig, Anfangs- und Endbuchstabe bleiben jedoch 
 ## Warum?
 
 Algorithmen zur [automatisierten Überwachung](http://christian-grasse.net/automatisierte-uberwachung-und-die-wechselwirkung-zwischen-mensch-und-maschine/) von 'gefährlicher' Kommunikation basieren vor allem auf der Erkennung von [Schlagworten](http://www.nsahaiku.net/terms.html). Wenn man diese maskiert, fällt es den ausländischen Dictionaries schwer, die Worte zweifelsfrei zu erkennen.
+Äquivalent zur Empfehlung, am [Telefon lieber in Mundart zu sprechen](http://www.huffingtonpost.de/2013/10/30/deutschland-usa-abgehoert-sicherheit-mundart_n_4176717.html).
 
 ## Wie?
+
+Kommandozeile, Terminal oder Eingabeeaufforderung öffnen und
 
 ```
 python wechselstabenverbuchter.py 'Dieser Satz soll durcheinander gebracht werden.'
 ```
+eingeben.
 
 ## Womit?
 
