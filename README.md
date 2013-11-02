@@ -14,9 +14,20 @@ Sortiert Buchstaben im Wort zufällig, Anfangs- und Endbuchstabe bleiben jedoch 
 
 > Wie man an diesem Beispiel zweifelsfrei sieht, ist das Gehirn relativ gut in der Lage diese Wörter zu erkennen, selbst wenn die Buchstaben in zufälliger Reihenfolge sind. Wichtig ist nur, dass Anfangs- und Endbuchstabe an der richtigen Stelle stehen und die korrekten Buchstaben verwendet wurden. Die Jungs bei der NSA müssen jetzt aber alles mit deutschen Dolmetschern checken lassen oder alle Nachrichten zufällig zurück durch sortieren. :)
 
+
 ## Warum?
 
 Algorithmen zur [automatisierten Überwachung](http://christian-grasse.net/automatisierte-uberwachung-und-die-wechselwirkung-zwischen-mensch-und-maschine/) von 'gefährlicher' Kommunikation basieren vor allem auf der Erkennung von [Schlagworten](http://www.nsahaiku.net/terms.html). Wenn man diese maskiert, fällt es den ausländischen Dictionaries schwer, die Worte zweifelsfrei zu erkennen.
+
+## Wie?
+
+```
+python wechselstabenverbuchter.py 'Dieser Satz soll durcheinander gebracht werden.'
+```
+
+## Womit?
+
+Es ist Python notwendig, was bei MacOSX und Linux standardmäßig dabei ist, bei Windows extra [installiert](http://www.python.org/getit/windows/) werden muss.
 
 ## Disclaimer
 

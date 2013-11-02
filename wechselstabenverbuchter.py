@@ -4,6 +4,7 @@
 # <codecell>
 
 import random
+import sys
 
 # <codecell>
 
@@ -22,7 +23,10 @@ def verbuchte(string):
 
 # <codecell>
 
-text = u'Wie man an diesem Beispiel zweifelsfrei sieht, \
+if len(sys.argv)>1:
+    text = str(sys.argv[1])
+else:
+    text = u'Wie man an diesem Beispiel zweifelsfrei sieht, \
     ist das Gehirn relativ gut in der Lage diese Wörter zu erkennen, \
     selbst wenn die Buchstaben in zufälliger Reihenfolge sind. \
     Wichtig ist nur, dass Anfangs- und Endbuchstabe an der \
@@ -34,9 +38,5 @@ text = u'Wie man an diesem Beispiel zweifelsfrei sieht, \
 
 print verbuchte(text)
 
-# <codecell>
-
-
-# <codecell>
 
 
