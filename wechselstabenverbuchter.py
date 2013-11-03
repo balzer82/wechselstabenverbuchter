@@ -11,13 +11,16 @@ import sys
 def verbuchte(string):
     string = string.split()
     for i in range(len(string)):
-        if len(string[i]) > 2:
+        if len(string[i]) > 4:
+            #print 'bearbeite: ' + string[i]
             pre = string[i][:2]
             post = string[i][-1:]
             mid = ''.join(random.sample(string[i][2:-1],len(string[i][2:-1])))
-            if len(mid)>1:
-                while mid == string[i][2:-1]:
-                    mid = ''.join(random.sample(string[i][2:-1],len(string[i][2:-1])))
+            while mid == string[i][2:-1]:
+                mid = ''.join(random.sample(string[i][2:-1],len(string[i][2:-1])))
+                if mid[0]==mid[1]:
+                    break
+        
             string[i]=pre+mid+post
     return ' '.join(string)
 
